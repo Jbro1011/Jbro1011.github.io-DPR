@@ -1006,7 +1006,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    -webkit-tap-highlight-color: #fed136;
 }
 
 /* Shared DPR page system: inner pages use the same body and heading fonts as home. */
