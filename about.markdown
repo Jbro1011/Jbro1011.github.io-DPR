@@ -85,7 +85,7 @@ permalink: /about/
             <div class="container">
                 <div class="section-header"><p class="eyebrow text-primary">Voices of DPR</p><h2 class="section-heading">Stories from the brotherhood</h2></div>
                 <div class="row story-grid">
-                    <div class="col-md-6"><blockquote>“Through DPR, I have become more aware of opportunities to lead and much more confident in my ability to lead in any realm of life.”<cite>Richard “Alas” De La Cruz-Balcazar</cite></blockquote></div>
+                    <div class="col-md-6"><blockquote>“Through DPR, I have become more aware of opportunities to lead and much more confident in my ability to lead in any realm of life.”<cite>Richard “Arce” De La Cruz-Balcazar</cite></blockquote></div>
                     <div class="col-md-6"><blockquote>“DPR is a family I didn’t know I needed. These guys are more than friends, and I am proud to be called a brother.”<cite>Will “Arquero” Schenk</cite></blockquote></div>
                 </div>
             </div>
