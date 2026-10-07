@@ -59,8 +59,8 @@ permalink: /alpha/
                     <p class="section-subheading">A growing record of the brothers who carry the Delta Pi Rho tradition forward.</p>
                     <p class="section-subheading alpha-chapter">Alpha Chapter</p>
                 </div>
-                <div class="line-decade">
-                    <h3 class="line-decade-heading">2000's</h3>
+                <details class="line-decade">
+                    <summary class="line-decade-heading">2000's</summary>
                     <div class="row image-strip line-grid">
                         <div class="col-sm-6 col-md-4"><article class="line-card"><img src="../img/Lines/1 Los Originales.jpg" alt="Los Originales"><h4>Los Originales</h4><p class="line-date">12/09/2004</p><ul><li>Michael "Comandante" Carrillo</li><li>Luis "Volcán" Moreno</li><li>Ricky "Suavemente" Ramos</li><li>Rich "Jefe" Rosales</li></ul></article></div>
                         <div class="col-sm-6 col-md-4"><article class="line-card"><img src="../img/Lines/2 Los Primorosos.jpg" alt="Los Primorsos"><h4>Los Primorsos</h4><p class="line-date">04/09/2005</p><ul><li>Michael "Chico" Rodiguez</li><li>Erik "Aviador" G. Serrano</li><li>Albert "Flojo" Escobedo</li></ul></article></div>
@@ -72,9 +72,9 @@ permalink: /alpha/
                         <div class="col-sm-6 col-md-4"><article class="line-card"><img src="../img/Lines/8 El Invencible.jpg.png" alt="El Invencible"><h4>El Invencible</h4><p class="line-date">12/12/2008</p><ul><li>Jahaziel "Indomable" Macias</li></ul></article></div>
                         <div class="col-sm-6 col-md-4"><article class="line-card"><img src="../img/Lines/9 PACTO.jpg" alt="PACTO"><h4>PACTO</h4><p class="line-date">04/16/2009</p><ul><li>Hermes "Genio" Perez</li><li>Jose "Titán" Martinez</li><li>Arturo "Dinámico" Balcazar</li><li>Sergio "Crescendo" Haro</li></ul></article></div>
                     </div>
-                </div>
-                <div class="line-decade">
-                    <h3 class="line-decade-heading">2010's</h3>
+                </details>
+                <details class="line-decade">
+                    <summary class="line-decade-heading">2010's</summary>
                     <div class="row image-strip line-grid">
                         <div class="col-sm-6 col-md-4"><article class="line-card"><img src="../img/Lines/10 Los Guerreros.jpg" alt="Los Guerreros"><h4>Los Guerreros</h4><p class="line-date">04/16/2010</p><ul><li>Jorge "Chavo" Hernandez</li><li>Vicente "Soñado" Garcia</li><li>Ariel "Protagonista" Rivera</li><li>Alionso "Matador" Huizar</li><li>Miguel "Metafisico" Gonzalez</li></ul></article></div>
                         <div class="col-sm-6 col-md-4"><article class="line-card"><img src="../img/Lines/11 Los Guardianes.jpg" alt="Los Guardianes"><h4>Los Guardianes</h4><p class="line-date">12/03/2010</p><ul><li>Christian "Lobo" Garcia</li><li>Nilson-Eduardo "Estudiante" Martinez Lopez</li><li>Eduardo "Halcón" Tovar</li><li>Alejandro "Huracán" Villanueva</li><li>Cesar "Detective" Marquez</li></ul></article></div>
@@ -91,9 +91,9 @@ permalink: /alpha/
                         <div class="col-sm-6 col-md-4"><article class="line-card"><img src="../img/Lines/22 Los Chambeadores.jpg" alt="Los Chambeadores"><h4>Los Chambeadores</h4><p class="line-date">04/20/2019</p><ul><li>Javier "Barbecho" Oñate-Bravo</li><li>Rolando "Grillo" Olvera-Vanzinni</li></ul></article></div>
                         <div class="col-sm-6 col-md-4"><article class="line-card"><img src="../img/Lines/23 El Iman.jpg" alt="El Imán"><h4>El Imán</h4><p class="line-date">11/20/2019</p><ul><li>Simon "Alacrán" Ricardo Hernandez</li><li>Ivan "Coraza" Alexis Moreno</li></ul></article></div>
                     </div>
-                </div>
-                <div class="line-decade">
-                    <h3 class="line-decade-heading">2020's</h3>
+                </details>
+                <details class="line-decade">
+                    <summary class="line-decade-heading">2020's</summary>
                     <div class="row image-strip line-grid">
                         <div class="col-sm-6 col-md-4"><article class="line-card"><img src="../img/Lines/24 El Otono.jpg" alt="El Otoño"><h4>El Otoño</h4><p class="line-date">10/04/2020</p><ul><li>Miguel "Catrín" Orozco</li></ul></article></div>
                         <div class="col-sm-6 col-md-4"><article class="line-card"><img src="../img/Lines/25 Los Aprendices.jpg" alt="Los Aprendices"><h4>Los Aprendices</h4><p class="line-date">04/24/2021</p><ul><li>Alejandro "Güero" Gonzalez</li><li>Aaron "Patrón" Torres</li><li>David "Versado" Vasquez</li></ul></article></div>
@@ -106,7 +106,7 @@ permalink: /alpha/
                         <div class="col-sm-6 col-md-4"><article class="line-card"><img src="../img/Lines/32 Los Invictos.jpg" alt="Los Invictos"><h4>Los Invictos</h4><p class="line-date">11/21/2025</p><ul><li>Osvaldo "Alas" Reyes</li><li>Antonio "Atlas" Rodriguez Caballero</li><li>Timothy "Molcajete" Caminero</li><li>Richard "Arce" De La Cruz</li></ul></article></div>
                         <div class="col-sm-6 col-md-4"><article class="line-card line-placeholder"><h4>Los Fantasticos</h4><p class="line-date">04/11/2026</p><ul><li>Halbert "Pelón" Aguirre</li><li>Jorge "Zarzamora" Vazquez-Osorio</li><li>Joaquin "Huilota" Lazaro Gutierrez</li><li>Gregorio "Lucero" Guerrero</li></ul></article></div>
                     </div>
-                </div>
+                </details>
             </div>
         </section>
 

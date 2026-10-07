@@ -1050,7 +1050,9 @@ body {
 .line-grid > [class*="col-"] { margin-bottom: 10px; }
 .line-decade { margin-top: 60px; }
 .line-decade:first-of-type { margin-top: 0; }
-.line-decade-heading { margin: 0 0 30px; padding-bottom: 12px; border-bottom: 2px solid #bb0009; color: #292929; font-size: 28px; text-transform: none; }
+.line-decade-heading { display: list-item; margin: 0 0 30px; padding-bottom: 12px; border-bottom: 2px solid #bb0009; color: #292929; font-size: 28px; cursor: pointer; text-transform: none; }
+.line-decade-heading::-webkit-details-marker { color: #bb0009; }
+.line-decade-heading::marker { color: #bb0009; }
 .line-card { height: 100%; margin-bottom: 30px; padding-bottom: 20px; background: #fff; box-shadow: 0 5px 18px rgba(0,0,0,.08); }
 .line-card img { margin-bottom: 18px; }
 .line-card h4 { margin: 0 20px 6px; color: #292929; font-size: 16px; line-height: 1.35; text-transform: none; }
