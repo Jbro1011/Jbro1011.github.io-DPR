@@ -196,7 +196,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     display: flex;
     align-items: center;
-    height: 66px;
+    height: 58px;
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #BB0009; /*fed136*/ /* The color of DPR on the top */
 }
@@ -205,7 +205,7 @@ fieldset[disabled] .btn-xl.active {
     display: block;
     width: auto;
     max-width: 220px;
-    height: 54px;
+    height: 52px;
     object-fit: contain;
 }
 
@@ -240,6 +240,14 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    display: flex;
+    align-items: center;
+    min-height: 58px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .navbar-default .nav li a:hover,
@@ -281,7 +289,19 @@ fieldset[disabled] .btn-xl.active {
     border-radius: 0;
     color: #fff;
     background-color: transparent;
-    border-bottom: 2px solid #bb0009;
+    border-bottom: 0;
+    position: relative;
+}
+
+.navbar-default .navbar-nav>.active>a::after {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    left: 15px;
+    height: 2px;
+    content: "";
+    background-color: #bb0009;
+    border-radius: 999px;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -292,14 +312,14 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 5px 0;
+        padding: 3px 0;
         border: 0;
         border-bottom: 1px solid #333;
         background-color: #222;
     }
 
     .navbar-default .navbar-brand {
-        height: 66px;
+        height: 58px;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -807,7 +827,7 @@ section#contact .text-danger {
 
 footer {
     background-color: #222;
-    padding: 25px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -833,7 +853,7 @@ footer span.copyright {
 
 .dpr-page footer {
     background-color: #222;
-    padding: 25px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -1020,19 +1040,23 @@ body {
 .dpr-page .alpha-chapter { margin-top: 4px; margin-bottom: 18px; color: #292929; font-size: 22px; font-weight: 700; letter-spacing: .04em; }
 .dpr-hero { min-height: 650px; background: linear-gradient(90deg, rgba(20,20,20,.88), rgba(20,20,20,.2)), url('../img/DPRCrest.jpg') center 40px / cover no-repeat; }
 .dpr-hero .intro-text { max-width: 650px; padding: 185px 0 130px; text-align: left; }
-.dpr-hero h1 { margin: 0 0 24px; color: #fff; font-size: 64px; letter-spacing: 1px; text-transform: none; }
+.dpr-hero .eyebrow { margin-bottom: 14px; font-size: 64px; font-weight: 700; line-height: 1.1; letter-spacing: 1px; }
+.dpr-hero h1 { margin: 0 0 24px; color: #fff; font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 21px; font-weight: 400; line-height: 1.6; letter-spacing: 1px; text-transform: none; }
 .hero-copy { max-width: 560px; color: #fff; font-size: 21px; line-height: 1.6; }
 .hero-actions { margin-top: 32px; }
 .btn-outline { display: inline-block; margin-left: 12px; padding: 20px 30px; border: 1px solid #fff; color: #fff; font-family: Montserrat, sans-serif; font-weight: 700; text-transform: uppercase; }
 .btn-outline:hover { color: #222; background: #fff; }
 .home-intro { padding: 110px 0; }
-.home-intro .eyebrow { font-size: 18px; }
+.home-intro .eyebrow { font-size: 40px; font-weight: 700; }
+.home-intro .section-heading { font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 30px; font-weight: 400; }
 .home-stat { padding: 30px 0 30px 70px; border-left: 1px solid #ddd; }
 .home-stat strong { display: block; color: #bb0009; font-family: Montserrat, sans-serif; font-size: 92px; line-height: .9; }
 .home-stat span, .home-stat small { display: block; font-family: Montserrat, sans-serif; text-transform: uppercase; }
 .home-stat span { margin-top: 18px; font-size: 18px; font-weight: 700; }
 .home-stat small { margin-top: 8px; color: #777; }
 .founders-section { padding: 110px 0; }
+.founders-section .eyebrow { font-size: 40px; font-weight: 700; }
+.founders-section .section-heading { font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 30px; font-weight: 400; }
 .founder-grid { display: flex; flex-wrap: wrap; }
 .founder-grid > [class*="col-"] { display: flex; margin-bottom: 30px; }
 .founder-card { width: 100%; padding: 28px 25px; border-top: 4px solid #bb0009; background: #fff; box-shadow: 0 8px 25px rgba(0,0,0,.08); }
@@ -1108,4 +1132,4 @@ body {
 .contact-links strong { font-family: Montserrat, sans-serif; font-size: 12px; text-transform: uppercase; }
 .contact-layout label { font-family: Montserrat, sans-serif; font-size: 12px; text-transform: uppercase; }
 .contact-layout .form-control { height: auto; padding: 16px; border: 1px solid #ddd; border-radius: 0; box-shadow: none; }
-@media (max-width: 767px) { .dpr-hero .intro-text { padding: 130px 20px 90px; } .dpr-hero h1 { font-size: 44px; } .btn-outline { margin: 12px 0 0; } .home-stat { margin-top: 45px; padding: 30px 0; border-top: 1px solid #ddd; border-left: 0; } .board-card { margin-bottom: 25px; } .board-grid .president-card, .board-grid .vice-president-card { flex-basis: 100%; margin-left: 0; margin-right: 0; } }
+@media (max-width: 767px) { .dpr-hero .intro-text { padding: 130px 20px 90px; } .dpr-hero .eyebrow { font-size: 44px; } .dpr-hero h1 { font-size: 21px; } .btn-outline { margin: 12px 0 0; } .home-stat { margin-top: 45px; padding: 30px 0; border-top: 1px solid #ddd; border-left: 0; } .board-card { margin-bottom: 25px; } .board-grid .president-card, .board-grid .vice-president-card { flex-basis: 100%; margin-left: 0; margin-right: 0; } }
