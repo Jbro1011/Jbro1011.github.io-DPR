@@ -42,8 +42,8 @@ permalink: /alpha/
     <header class="inner-hero">
         <div class="container">
             <div class="intro-text">
-                <p class="eyebrow">Delta Pi Rho at Purdue University</p>
                 <h1>Alpha Chapter</h1>
+                <p class="eyebrow">Delta Pi Rho at Purdue University</p>
                 <p>The chapter where the Delta Pi Rho tradition began.</p>
             </div>
         </div>

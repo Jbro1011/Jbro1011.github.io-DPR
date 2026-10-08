@@ -46,8 +46,8 @@ permalink: /about/
     <header class="inner-hero">
         <div class="container">
             <div class="intro-text">
+                <h1>About Us</h1>
                 <p class="eyebrow">The story behind the letters</p>
-                <h1>About us</h1>
                 <p>Four pillars. One brotherhood. More than two decades of impact.</p>
             </div>
         </div>
