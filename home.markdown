@@ -1,9 +1,14 @@
+---
+layout: null
+permalink: /
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Delta Pi Rho Fraternity, Inc. at Purdue University.">
+    <link rel="icon" type="image/png" href="img/DPR_CREST.png">
     <title>Delta Pi Rho Fraternity Inc.</title>
     <!-- Shared styles and font families used by every page. -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -25,13 +30,14 @@
             <div class="collapse navbar-collapse" id="dpr-nav">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about/">About Us</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            About us <span class="caret"></span>
+                            Brothers <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="about/">About Us</a></li>
                             <li><a href="alpha/">Alpha Chapter</a></li>
+                            <li><a href="beta/">Beta Chapter</a></li>
                         </ul>
                     </li>
                     <li><a href="contact/">Contact us</a></li>
@@ -61,7 +67,7 @@
                 <div class="col-md-7">
                     <p class="eyebrow text-primary">Since 2004</p>
                     <h2 class="section-heading">One vision. Many generations.</h2>
-                    <p class="large">Delta Pi Rho is a Latino-based fraternity at Purdue University dedicated to building men who lead with character and serve with purpose.</p>
+                    <p class="large">Delta Pi Rho is a Latino-based fraternity dedicated to building men who lead with character and serve with purpose.</p>
                 </div>
                 <div class="col-md-5">
                     <div class="home-stat">
@@ -97,8 +103,7 @@
                 <div class="col-sm-6">
                     <ul class="list-inline social-buttons">
                         <li><a href="https://twitter.com/DPR_Alpha" title="DPR on Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.facebook.com/DPRPurdue/" title="DPR on Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com/purdue_pirhos/" title="DPR on Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/DPRPurdue/" title="DPR on Facebook"><i class="fa fa-facebook"></i></a></li><li><a href="https://www.instagram.com/purdue_pirhos/" title="DPR on Instagram"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>

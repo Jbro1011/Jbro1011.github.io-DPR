@@ -7,6 +7,7 @@ permalink: /about/
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The history, pillars, lines, stories, and board of Delta Pi Rho Fraternity, Inc.">
+    <link rel="icon" type="image/png" href="../img/DPR_CREST.png">
     <title>Delta Pi Rho | About Us</title>
     <!-- About uses the same font families as the home page. -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +20,7 @@ permalink: /about/
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="../index.html"><img src="../img/DPRletters.png" alt="Delta Pi Rho"></a>
+                <a class="navbar-brand" href="../"><img src="../img/DPRletters.png" alt="Delta Pi Rho"></a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dpr-nav">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
@@ -27,14 +28,15 @@ permalink: /about/
             </div>
             <div class="collapse navbar-collapse" id="dpr-nav">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../index.html">Home</a></li>
-                    <li class="dropdown active">
+                    <li><a href="../">Home</a></li>
+                    <li class="active"><a href="../about/">About Us</a></li>
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            About us <span class="caret"></span>
+                            Brothers <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="../about/">About Us</a></li>
                             <li><a href="../alpha/">Alpha Chapter</a></li>
+                            <li><a href="../beta/">Beta Chapter</a></li>
                         </ul>
                     </li>
                     <li><a href="../contact/">Contact us</a></li>
@@ -59,8 +61,15 @@ permalink: /about/
             <div class="container narrow-content">
                 <p class="eyebrow text-primary">Our beginning</p>
                 <h2 class="section-heading">A new vision for the Latino community</h2>
-                <p class="large">Delta Pi Rho was founded on December 9, 2004, at Purdue University in West Lafayette, Indiana, by Michael Carrillo, Luis Moreno, Ricardo Ramos, and Richard Rosales.</p>
-                <p>They imagined a brotherhood that would empower Latino gentlemen to pursue academic excellence, build lasting loyalty, lead with intention, and stand together as hermanos unidos. That vision continues through every line and every brother who carries it forward.</p>
+                <p class="large">Delta Pi Rho was founded on December 9th, 2004 at Purdue University in West Lafayette, Indiana by four proud Latinos. These four Gentlemen had a new vision to empower the Latino community through four pillars: Academics, Loyalty, Leadership and Hermanos Unidos. All Delta Pi Rho brothers stand by the Four Pillars.</p>
+            </div>
+        </section>
+
+        <section id="motto">
+            <div class="container narrow-content">
+                <p class="eyebrow text-primary">Our Motto</p>
+                <h2 class="section-heading">Encendiendo el Fuego de la Hermandad</h2>
+                <p>The gentlemen of Delta Pi Rho's motto is &quot;Encendiendo el Fuego de la Hermandad,&quot; which can be translated as &quot;Lighting the Fire of Brotherhood.&quot; This motto exemplifies the brotherhood that the brothers of Delta Pi Rho strive for. Their mission is to promote scholarship, service and unity among brothers and other gentlemen interested in the Latino culture.</p>
             </div>
         </section>
 

@@ -25,6 +25,9 @@ p {
 p.large {
     font-size: 30px;
 }
+.narrow-content p.large {
+    font-size: 20px;
+}
 
 a,
 a:hover,
@@ -332,13 +335,14 @@ header {
     text-align: left;
     color: #ffffff; /* This changes the text color that is on front */
     background-attachment: scroll;
-    background-image: url(../img/DPRCrest.jpg); /* This changes the picture at the top of the page */
-    background-position: none; /* The DPRCrest.jpg is set to be in center */
+    background-color: #000;
+    background-image: url(../img/DPR_CREST.png); /* This changes the picture at the top of the page */
+    background-position: center;
     background-repeat: no-repeat;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    background-size: 100%;  
-    -o-background-size: 100%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
     -webkit-background-repeat: none;
     -moz-background-repeat: none;
     -o-background-repeat: none;
@@ -1031,24 +1035,26 @@ body {
 
 /* Shared DPR page system: inner pages use the same body and heading fonts as home. */
 .dpr-page { color: #292929; background: #fff; font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-.dpr-page.inner-page { background-image: linear-gradient(90deg, rgba(20,20,20,.88), rgba(20,20,20,.2)), url('../img/DPRCrest.jpg'); background-position: center -30px; background-repeat: no-repeat; background-size: cover; }
+.dpr-page.inner-page { background-color: #000; background-image: url('../img/DPR_CREST.png'); background-position: center -30px; background-repeat: no-repeat; background-size: contain; }
+.dpr-page.inner-page.alpha-page { background-image: none; }
 .dpr-page h1, .dpr-page h2, .dpr-page h3, .dpr-page h4, .dpr-page h5, .dpr-page h6, .dpr-page .navbar-brand { font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 .dpr-page .navbar-brand { font-family: "Kaushan Script", cursive; }
 .dpr-page .eyebrow { margin: 0 0 14px; color: #f2c20d; font-family: Montserrat, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
 .dpr-page .section-header { margin-bottom: 45px; text-align: center; }
 .dpr-page .section-subheading { max-width: 620px; margin: 0 auto; }
 .dpr-page .alpha-chapter { margin-top: 4px; margin-bottom: 18px; color: #292929; font-size: 22px; font-weight: 700; letter-spacing: .04em; }
-.dpr-hero { min-height: 650px; background: linear-gradient(90deg, rgba(20,20,20,.88), rgba(20,20,20,.2)), url('../img/DPRCrest.jpg') center 40px / cover no-repeat; }
+.dpr-hero { height: 650px; min-height: 650px; background-color: #000; background-image: url('../img/DPR_CREST.png'); background-position: center 65px; background-repeat: no-repeat; background-size: auto 90%; }
 .dpr-hero .intro-text { max-width: 650px; padding: 185px 0 130px; text-align: left; }
-.dpr-hero .eyebrow { margin-bottom: 14px; font-size: 64px; font-weight: 700; line-height: 1.1; letter-spacing: 1px; }
-.dpr-hero h1 { margin: 0 0 24px; color: #fff; font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 21px; font-weight: 400; line-height: 1.6; letter-spacing: 1px; text-transform: none; }
+.dpr-hero .eyebrow { margin-bottom: 14px; color: #bb0009; font-size: 64px; font-weight: 700; line-height: 1.1; letter-spacing: 1px; }
+.dpr-hero h1 { margin: 0 0 14px; color: #fed136; font-family: Montserrat, sans-serif; font-size: 12px; font-weight: 700; line-height: normal; letter-spacing: 2px; text-transform: uppercase; }
 .hero-copy { max-width: 560px; color: #fff; font-size: 21px; line-height: 1.6; }
 .hero-actions { margin-top: 32px; }
 .btn-outline { display: inline-block; margin-left: 12px; padding: 20px 30px; border: 1px solid #fff; color: #fff; font-family: Montserrat, sans-serif; font-weight: 700; text-transform: uppercase; }
 .btn-outline:hover { color: #222; background: #fff; }
 .home-intro { padding: 110px 0; }
 .home-intro .eyebrow { font-size: 40px; font-weight: 700; }
-.home-intro .section-heading { font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 30px; font-weight: 400; }
+.home-intro p.large { font-size: 20px; }
+.home-intro .section-heading { font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 25px; font-weight: 400; }
 .home-stat { padding: 30px 0 30px 70px; border-left: 1px solid #ddd; }
 .home-stat strong { display: block; color: #bb0009; font-family: Montserrat, sans-serif; font-size: 92px; line-height: .9; }
 .home-stat span, .home-stat small { display: block; font-family: Montserrat, sans-serif; text-transform: uppercase; }
@@ -1056,7 +1062,7 @@ body {
 .home-stat small { margin-top: 8px; color: #777; }
 .founders-section { padding: 110px 0; }
 .founders-section .eyebrow { font-size: 40px; font-weight: 700; }
-.founders-section .section-heading { font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 30px; font-weight: 400; }
+.founders-section .section-heading { font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 25px; font-weight: 400; }
 .founder-grid { display: flex; flex-wrap: wrap; }
 .founder-grid > [class*="col-"] { display: flex; margin-bottom: 30px; }
 .founder-card { width: 100%; padding: 28px 25px; border-top: 4px solid #bb0009; background: #fff; box-shadow: 0 8px 25px rgba(0,0,0,.08); }
@@ -1086,11 +1092,24 @@ body {
 .inner-page { padding-top: 70px; }
 .inner-page .navbar-default { background-color: #222; }
 .inner-page .navbar-default .navbar-brand { color: #bb0009; }
-.inner-hero { margin-top: -30px; min-height: 650px; background: linear-gradient(90deg, rgba(20,20,20,.88), rgba(20,20,20,.2)), url('../img/DPRCrest.jpg') center top / cover no-repeat; }
+.inner-hero { height: 650px; margin-top: -70px; min-height: 650px; background-color: #000; background-image: url('../img/DPR_CREST.png'); background-position: center 25px; background-repeat: no-repeat; background-size: auto 90%; }
+.alpha-page .inner-hero { background-image: none; }
+.beta-page .inner-hero { background-image: none; }
+.inner-page:not(.alpha-page) .inner-hero { background-position: center 65px; }
 .inner-hero .intro-text { max-width: 650px; padding: 185px 0 130px; text-align: left; }
 .inner-hero h1 { margin: 0 0 24px; color: #fff; font-size: 64px; letter-spacing: 1px; text-transform: none; }
+.inner-page:not(.alpha-page):not(.beta-page) .inner-hero h1 { color: #bb0009; }
 .inner-hero p:not(.eyebrow) { max-width: 560px; color: #fff; font-size: 21px; line-height: 1.6; }
 .inner-hero .eyebrow { margin: 0 0 14px; }
+.alpha-page .inner-hero .intro-text { max-width: 760px; margin: 0 auto; text-align: center; }
+.alpha-page .inner-hero p { margin-right: auto; margin-left: auto; text-align: center; }
+.beta-page .inner-hero .intro-text { max-width: 760px; margin: 0 auto; text-align: center; }
+.beta-page .inner-hero p { margin-right: auto; margin-left: auto; text-align: center; }
+.alpha-hero-image { display: block; width: 100%; max-width: 220px; height: auto; margin: 0 auto 28px; }
+.alpha-page main .section-header .eyebrow { font-size: 40px; }
+.alpha-page main .section-header .section-heading { font-size: 25px; }
+.beta-page main .section-header .eyebrow { font-size: 40px; }
+.beta-page main .section-header .section-heading { font-size: 25px; }
 .inner-page main section { position: relative; }
 .inner-page main section:nth-child(even) { background-color: #f7f7f7; }
 .inner-page main section:nth-child(odd) { background-color: #fff; }
@@ -1102,6 +1121,13 @@ body {
 .inner-page .bg-darkest-gray { background-color: #222; }
 .inner-page .bg-darkest-gray .section-subheading { color: #bbb; }
 .narrow-content { max-width: 850px; }
+.narrow-content .eyebrow { font-size: 40px; }
+.narrow-content .section-heading { font-size: 25px; }
+#motto .eyebrow { font-size: 40px; }
+#motto .section-heading { font-size: 25px; }
+#motto .container > p:last-child { font-size: 20px; }
+#pillars .section-header .eyebrow, #stories .section-header .eyebrow { font-size: 40px; }
+#pillars .section-header .section-heading, #stories .section-header .section-heading { font-size: 25px; }
 .pillar-card { margin-bottom: 30px; padding: 0 0 25px; background: #fff; }
 .pillar-grid > [class*="col-"] { display: flex; }
 .pillar-card { width: 100%; }
@@ -1125,6 +1151,8 @@ body {
 .board-subsection { margin-top: 45px; }
 .line-note { margin-top: 25px; color: #777; font-style: italic; }
 .contact-layout { padding-top: 10px; }
+.contact-layout .eyebrow { font-size: 40px; }
+.contact-layout .section-heading { font-size: 25px; }
 .contact-links { margin-top: 30px; }
 .contact-links a { display: flex; align-items: center; margin: 0 0 20px; color: #292929; }
 .contact-links i { width: 42px; color: #bb0009; font-size: 24px; }
@@ -1132,4 +1160,4 @@ body {
 .contact-links strong { font-family: Montserrat, sans-serif; font-size: 12px; text-transform: uppercase; }
 .contact-layout label { font-family: Montserrat, sans-serif; font-size: 12px; text-transform: uppercase; }
 .contact-layout .form-control { height: auto; padding: 16px; border: 1px solid #ddd; border-radius: 0; box-shadow: none; }
-@media (max-width: 767px) { .dpr-hero .intro-text { padding: 130px 20px 90px; } .dpr-hero .eyebrow { font-size: 44px; } .dpr-hero h1 { font-size: 21px; } .btn-outline { margin: 12px 0 0; } .home-stat { margin-top: 45px; padding: 30px 0; border-top: 1px solid #ddd; border-left: 0; } .board-card { margin-bottom: 25px; } .board-grid .president-card, .board-grid .vice-president-card { flex-basis: 100%; margin-left: 0; margin-right: 0; } }
+@media (max-width: 767px) { .dpr-hero .intro-text { padding: 130px 20px 90px; } .dpr-hero .eyebrow { font-size: 44px; } .dpr-hero h1 { font-size: 12px; } .btn-outline { margin: 12px 0 0; } .home-stat { margin-top: 45px; padding: 30px 0; border-top: 1px solid #ddd; border-left: 0; } .board-card { margin-bottom: 25px; } .board-grid .president-card, .board-grid .vice-president-card { flex-basis: 100%; margin-left: 0; margin-right: 0; } }

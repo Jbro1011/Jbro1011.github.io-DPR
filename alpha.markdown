@@ -7,6 +7,7 @@ permalink: /alpha/
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The Alpha Chapter of Delta Pi Rho Fraternity, Inc. at Purdue University.">
+    <link rel="icon" type="image/png" href="../img/DPR_CREST.png">
     <title>Delta Pi Rho | Alpha Chapter</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/agency.css" rel="stylesheet">
@@ -17,7 +18,7 @@ permalink: /alpha/
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="../index.html"><img src="../img/DPRletters.png" alt="Delta Pi Rho"></a>
+                <a class="navbar-brand" href="../"><img src="../img/DPRletters.png" alt="Delta Pi Rho"></a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dpr-nav">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
@@ -25,12 +26,13 @@ permalink: /alpha/
             </div>
             <div class="collapse navbar-collapse" id="dpr-nav">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../">Home</a></li>
+                    <li><a href="../about/">About Us</a></li>
                     <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About us <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Brothers <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="../about/">About Us</a></li>
                             <li><a href="../alpha/">Alpha Chapter</a></li>
+                            <li><a href="../beta/">Beta Chapter</a></li>
                         </ul>
                     </li>
                     <li><a href="../contact/">Contact us</a></li>
@@ -42,9 +44,9 @@ permalink: /alpha/
     <header class="inner-hero">
         <div class="container">
             <div class="intro-text">
-                <h1>Alpha Chapter</h1>
+                <img class="alpha-hero-image" src="../img/Alpha.png" alt="Alpha Chapter">
                 <p class="eyebrow">Delta Pi Rho at Purdue University</p>
-                <p>The chapter where the Delta Pi Rho tradition began.</p>
+                <p>The Chapter where the Delta Pi Rho Tradition Began</p>
             </div>
         </div>
     </header>
@@ -118,12 +120,12 @@ permalink: /alpha/
                     <p class="section-subheading">The officers who guide chapter direction, operations, and member development.</p>
                 </div>
                 <div class="row board-grid">
-                    <div class="col-sm-3 president-card"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>President</h3><p class="board-name">Angel "Arrendajo" Vera</p><p>Enforces chapter rules, leads meetings, and coordinates committees.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3 vice-president-card"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Vice President</h3><p class="board-name">Timothy "Molcajete" Caminero</p><p>Supports the President, evaluates officers, and coordinates judicial matters.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Treasurer</h3><p class="board-name">Eduardo "Gato" Luna Lopez</p><p>Manages accounts, budgets, dues, and approved expenditures.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Parliamentarian</h3><p class="board-name">Indian "Bufon" Polletta</p><p>Interprets the Constitution, advises on procedure, and maintains member statuses.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Secretary</h3><p class="board-name">Jason "Peluche" Dimas-Rivera</p><p>Maintains minutes, correspondence, event forms, and chapter schedules.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>New Member Educator</h3><p class="board-name">Javier "Turbo" Meraz</p><p>Leads new member education and partners on intake planning.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
+                    <div class="col-sm-3 president-card"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>President</h3><p class="board-name">Angel "Arrendajo" Vera</p><p>Enforces chapter rules, leads meetings, and coordinates committees.</p></div></div>
+                    <div class="col-sm-3 vice-president-card"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Vice President</h3><p class="board-name">Timothy "Molcajete" Caminero</p><p>Supports the President, evaluates officers, and coordinates judicial matters.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Treasurer</h3><p class="board-name">Eduardo "Gato" Luna Lopez</p><p>Manages accounts, budgets, dues, and approved expenditures.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Parliamentarian</h3><p class="board-name">Indian "Bufon" Polletta</p><p>Interprets the Constitution, advises on procedure, and maintains member statuses.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Secretary</h3><p class="board-name">Jason "Peluche" Dimas-Rivera</p><p>Maintains minutes, correspondence, event forms, and chapter schedules.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>New Member Educator</h3><p class="board-name">Javier "Turbo" Meraz</p><p>Leads new member education and partners on intake planning.</p></div></div>
                 </div>
 
                 <div class="section-header board-subsection">
@@ -131,19 +133,19 @@ permalink: /alpha/
                     <p class="section-subheading">The chairs who support the chapter's academic, social, professional, and community work.</p>
                 </div>
                 <div class="row board-grid">
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Academic Chair</h3><p class="board-name">Daniel "Fogata" Medina</p><p>Tracks academic support, study groups, and member progress.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Philanthropy Chair</h3><p class="board-name">David "Quiron" Flores-Gaspar</p><p>Coordinates service events and tracks chapter service commitments.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Fundraiser Chair</h3><p class="board-name">Antonio "Atlas" Rodriguez Caballero</p><p>Organizes fundraising efforts and supports chapter financial goals.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Recruitment Chair</h3><p class="board-name">Timothy "Molcajete" Caminero</p><p>Leads recruitment outreach and supports intake planning.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Social Chair</h3><p class="board-name">Joaquin "Huilota" Lazaro Gutierrez</p><p>Plans approved social events and helps uphold chapter standards.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Public Relations Chair</h3><p class="board-name">Richard "Arce" De La Cruz</p><p>Shares communications, outreach, and social media responsibilities.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Public Relations Chair</h3><p class="board-name">Gregorio "Lucero" Guerrero</p><p>Shares communications, outreach, and social media responsibilities.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Alumni Chair</h3><p class="board-name">Angel "Arrendajo" Vera</p><p>Builds alumni and brotherhood relationships and represents the chapter nationally.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Stroll Master Chair</h3><p class="board-name">Halbert "Pelón" Aguirre</p><p>Leads practice, choreography, competitions, and stroll participation.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Mental Health Chair</h3><p class="board-name">Joaquin "Huilota" Lazaro Gutierrez</p><p>Connects brothers with resources and leads wellness and check-ins.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Professional Chair</h3><p class="board-name">Maximillian "Ciclon" Santiago</p><p>Creates career development, networking, and professional growth opportunities.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Brother Relations Chair</h3><p class="board-name">Indian "Bufon" Polletta</p><p>Builds alumni and brotherhood relationships and represents the chapter nationally.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Risk Management Chair</h3><p class="board-name">Osvaldo "Alas" Reyes</p><p>Coordinates event safety, sober monitoring, forms, and risk compliance.</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Academic Chair</h3><p class="board-name">Daniel "Fogata" Medina</p><p>Tracks academic support, study groups, and member progress.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Philanthropy Chair</h3><p class="board-name">David "Quiron" Flores-Gaspar</p><p>Coordinates service events and tracks chapter service commitments.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Fundraiser Chair</h3><p class="board-name">Antonio "Atlas" Rodriguez Caballero</p><p>Organizes fundraising efforts and supports chapter financial goals.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Recruitment Chair</h3><p class="board-name">Timothy "Molcajete" Caminero</p><p>Leads recruitment outreach and supports intake planning.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Social Chair</h3><p class="board-name">Joaquin "Huilota" Lazaro Gutierrez</p><p>Plans approved social events and helps uphold chapter standards.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Public Relations Chair</h3><p class="board-name">Richard "Arce" De La Cruz</p><p>Shares communications, outreach, and social media responsibilities.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Public Relations Chair</h3><p class="board-name">Gregorio "Lucero" Guerrero</p><p>Shares communications, outreach, and social media responsibilities.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Alumni Chair</h3><p class="board-name">Angel "Arrendajo" Vera</p><p>Builds alumni and brotherhood relationships and represents the chapter nationally.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Stroll Master Chair</h3><p class="board-name">Halbert "Pelón" Aguirre</p><p>Leads practice, choreography, competitions, and stroll participation.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Mental Health Chair</h3><p class="board-name">Joaquin "Huilota" Lazaro Gutierrez</p><p>Connects brothers with resources and leads wellness and check-ins.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Professional Chair</h3><p class="board-name">Maximillian "Ciclon" Santiago</p><p>Creates career development, networking, and professional growth opportunities.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Brother Relations Chair</h3><p class="board-name">Indian "Bufon" Polletta</p><p>Builds alumni and brotherhood relationships and represents the chapter nationally.</p></div></div>
+                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Risk Management Chair</h3><p class="board-name">Osvaldo "Alas" Reyes</p><p>Coordinates event safety, sober monitoring, forms, and risk compliance.</p></div></div>
                 </div>
             </div>
         </section>
