@@ -91,19 +91,6 @@ permalink: /about/
             </div>
         </section>
 
-        <!-- The board section identifies current leadership responsibilities. -->
-        <section id="board" class="bg-darkest-gray board-section">
-            <div class="container">
-                <div class="section-header"><p class="eyebrow">Leadership today</p><h2 class="section-heading">Meet the board</h2><p class="section-subheading">Current officer names, portraits, and individual socials can be added here as the roster is confirmed.</p></div>
-                <div class="row board-grid">
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>President</h3><p>Chapter direction and representation</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Vice President</h3><p>Brotherhood and internal affairs</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Academic Chair</h3><p>Scholarship and academic support</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                    <div class="col-sm-3"><div class="board-card"><img src="../img/DPRLogo.jpg" alt="Delta Pi Rho logo"><h3>Social Chair</h3><p>Events and community connection</p><a href="https://www.instagram.com/purdue_pirhos/">DPR Instagram <i class="fa fa-external-link"></i></a></div></div>
-                </div>
-            </div>
-        </section>
-
     </main>
 
     <footer>
