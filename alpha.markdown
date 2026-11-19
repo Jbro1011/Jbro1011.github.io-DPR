@@ -8,7 +8,10 @@ permalink: /alpha/
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The Alpha Chapter of Delta Pi Rho Fraternity, Inc. at Purdue University.">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ '/img/DPR_CREST.png' | relative_url }}?v=2">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/img/DPR_CREST.png' | relative_url }}?v=3">
     <link rel="shortcut icon" type="image/png" href="{{ '/img/DPR_CREST.png' | relative_url }}?v=2">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/img/DPR_CREST.png' | relative_url }}?v=3">
+    <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
     <title>Delta Pi Rho | Alpha Chapter</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/agency.css" rel="stylesheet">
