@@ -159,7 +159,7 @@ permalink: /alpha/
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-sm-6"><div class="footer-brand"><img src="../img/DPR_CREST.png" alt="Delta Pi Rho crest">                <span class="copyright">© 2009 - 2026 Delta Pi Rho Fraternity, Inc</span></div></div>
+                <div class="col-sm-6"><div class="footer-brand"><img src="../img/DPR_CREST.png" alt="Delta Pi Rho crest">                                <span class="copyright">© 2004 - 2026 Delta Pi Rho Fraternity, Inc</span></div></div>
                 <div class="col-sm-6"><ul class="list-inline social-buttons"><li><a href="https://www.instagram.com/purdue_pirhos/"><i class="fa fa-instagram"></i></a></li><li><a href="https://www.facebook.com/DPRPurdue/"><i class="fa fa-facebook"></i></a></li><li><a href="../contact/"><i class="fa fa-envelope"></i></a></li></ul></div>
             </div>
         </div>
