@@ -846,6 +846,19 @@ footer span.copyright {
     line-height: 40px;
 }
 
+.footer-brand {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.footer-brand img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
 .dpr-page footer {
     background-color: #231f20;
     padding: 15px 0;
@@ -1034,7 +1047,7 @@ body {
 .dpr-page .section-header { margin-bottom: 45px; text-align: center; }
 .dpr-page .section-subheading { max-width: 620px; margin: 0 auto; }
 .dpr-page .alpha-chapter { margin-top: 4px; margin-bottom: 18px; color: #231f20; font-size: 22px; font-weight: 700; letter-spacing: .04em; }
-.dpr-hero { height: 650px; min-height: 650px; background-color: #231f20; }
+.dpr-hero { width: 100%; height: auto; aspect-ratio: 2 / 1; min-height: 650px; background-color: #231f20; }
 .dpr-hero .intro-text { max-width: 1000px; margin: 0 auto; padding: 120px 0 90px; text-align: center; }
 .header-crest { display: block; width: 220px; max-width: 220px; height: auto; margin: 0 auto 28px; object-fit: contain; }
 .dpr-hero .eyebrow { margin: 0 0 24px; color: #ed1c24; font-size: 30px; font-weight: 700; line-height: 1.1; letter-spacing: 1px; white-space: nowrap; }
@@ -1052,6 +1065,7 @@ body {
 .home-stat span { margin-top: 18px; font-size: 18px; font-weight: 700; }
 .home-stat small { margin-top: 8px; color: #777; }
 .founders-section { padding: 110px 0; }
+.founders-section .section-header { text-align: center; }
 .founders-section .eyebrow { font-size: 12px; font-weight: 700; }
 .founders-section .section-heading { color: #ed1c24; font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 25px; font-weight: 700; }
 .founder-grid { display: flex; flex-wrap: wrap; }
@@ -1083,9 +1097,9 @@ body {
 .inner-page { padding-top: 70px; }
 .inner-page .navbar-default { background-color: #231f20; }
 .inner-page .navbar-default .navbar-brand { color: #ed1c24; }
-.inner-hero { height: 650px; margin-top: -70px; min-height: 650px; background-color: #231f20; }
+.inner-hero { width: 100%; height: auto; aspect-ratio: 2 / 1; margin-top: -70px; min-height: 650px; background-color: #231f20; }
 .alpha-page .inner-hero { background-image: none; }
-.beta-page .inner-hero { background-image: none; }
+.beta-page .inner-hero { background-image: url('../img/BetaCover.PNG'); background-position: center; background-repeat: no-repeat; background-size: contain; }
 .inner-page:not(.alpha-page) .inner-hero { background-position: center 65px; }
 .inner-hero .intro-text { max-width: 650px; margin: 0 auto; padding: 120px 0 90px; text-align: center; }
 .inner-hero h1 { margin: 0 0 24px; color: #fff; font-size: 30px; letter-spacing: 1px; text-transform: none; }
@@ -1113,11 +1127,16 @@ body {
 .inner-page .bg-darkest-gray { background-color: #231f20; }
 .inner-page .bg-darkest-gray .section-subheading { color: #bbb; }
 .narrow-content { max-width: 850px; }
+.narrow-content { text-align: center; }
 .narrow-content .eyebrow { font-size: 12px; }
 .narrow-content .section-heading { color: #ed1c24; font-size: 25px; }
 #motto .eyebrow { font-size: 12px; }
 #motto .section-heading { color: #ed1c24; font-size: 25px; }
 #motto .container > p:last-child { font-size: 20px; }
+#mission { background: #fff; }
+#mission .eyebrow { color: #ffde17; }
+#mission .mission-heading { margin-bottom: 28px; color: #ed1c24; font-size: 25px; }
+#mission p:not(.eyebrow) { color: #231f20; font-size: 20px; line-height: 1.8; }
 #pillars .section-header .eyebrow, #stories .section-header .eyebrow { font-size: 12px; }
 #pillars .section-header .section-heading, #stories .section-header .section-heading { color: #ed1c24; font-size: 25px; }
 .pillar-card { margin-bottom: 30px; padding: 0 0 25px; background: #fff; }
