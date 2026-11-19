@@ -7,7 +7,8 @@ permalink: /about/
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The history, pillars, lines, stories, and board of Delta Pi Rho Fraternity, Inc.">
-    <link rel="icon" type="image/png" href="../img/DPR_CREST.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/img/DPR_CREST.png' | relative_url }}?v=2">
+    <link rel="shortcut icon" type="image/png" href="{{ '/img/DPR_CREST.png' | relative_url }}?v=2">
     <title>Delta Pi Rho | About Us</title>
     <!-- About uses the same font families as the home page. -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +33,7 @@ permalink: /about/
                     <li class="active"><a href="../about/">About Us</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            Brothers <span class="caret"></span>
+                            Hermanos <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
                             <li><a href="../alpha/">Alpha Chapter</a></li>
@@ -48,9 +49,9 @@ permalink: /about/
     <header class="inner-hero">
         <div class="container">
             <div class="intro-text">
+                <img class="header-crest" src="../img/DPR_CREST.png" alt="Delta Pi Rho crest">
                 <h1>About Us</h1>
                 <p class="eyebrow">The story behind the letters</p>
-                <p>Four pillars. One brotherhood. More than two decades of impact.</p>
             </div>
         </div>
     </header>

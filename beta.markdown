@@ -7,7 +7,8 @@ permalink: /beta/
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The Beta Chapter of Delta Pi Rho Fraternity, Inc. at Indiana University Northwest.">
-    <link rel="icon" type="image/png" href="../img/DPR_CREST.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/img/DPR_CREST.png' | relative_url }}?v=2">
+    <link rel="shortcut icon" type="image/png" href="{{ '/img/DPR_CREST.png' | relative_url }}?v=2">
     <title>Delta Pi Rho | Beta Chapter</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/agency.css" rel="stylesheet">
@@ -29,7 +30,7 @@ permalink: /beta/
                     <li><a href="../">Home</a></li>
                     <li><a href="../about/">About Us</a></li>
                     <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Brothers <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hermanos <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="../alpha/">Alpha Chapter</a></li>
                             <li><a href="../beta/">Beta Chapter</a></li>
